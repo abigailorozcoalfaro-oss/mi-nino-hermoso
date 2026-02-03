@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Andrés 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(180deg, #ffd6e8, #fff);
+      text-align: center;
+      color: #444;
+      padding: 30px;
+    }
+    h1 {
+      color: #ff4d88;
+      font-size: 36px;
+    }
+    h2 {
+      color: #ff6699;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      margin: 10px;
+      background: #ff4d88;
+      color: white;
+    }
+    section {
+      display: none;
+      margin-top: 40px;
+      animation: fadeIn 1.2s ease;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .photos img {
+      width: 100px;
+      border-radius: 10px;
+      margin: 5px;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💘 Andrés 💘</h1>
+  <p>
+    No sabía cómo explicarte todo lo que siento…  
+    así que decidí mostrártelo 💕
+  </p>
+
+  <button onclick="mostrar()">¿Quieres ver algo especial? 😏</button>
+
+  <section id="contenido">
+    <div class="card">
+      <h2>💗 ¿Por qué tú?</h2>
+      <p>
+        Porque me haces sentir segura.<br>
+        Porque contigo soy yo.<br>
+        Porque incluso en días grises, tú eres mi calma.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>📸 Nuestros recuerdos</h2>
+      <div class="photos">
+        <!-- AQUÍ PUEDES CAMBIAR LAS IMÁGENES -->
+        <img src="https://via.placeholder.com/100">
+        <img src="https://via.placeholder.com/100">
+        <img src="https://via.placeholder.com/100">
+      </div>
+      <p>(pronto más recuerdos juntos 💞)</p>
+    </div>
+
+    <div class="card">
+      <h2>💍 Y ahora la pregunta importante…</h2>
+      <p>¿Quieres seguir siendo mi persona favorita todos los días?</p>
+      <button onclick="final()">Sí, obvio 💖</button>
+    </div>
+  </section>
+
+  <section id="final">
+    <div class="card">
+      <h2>❤️ Gracias por elegirnos ❤️</h2>
+      <p>
+        No prometo perfección,  
+        pero sí amor, apoyo y risas contigo.  
+        <br><br>
+        Te amo, Andrés 💕
+      </p>
+    </div>
+  </section>
+
+  <script>
+    function mostrar() {
+      document.getElementById("contenido").style.display = "block";
+    }
+    function final() {
+      document.getElementById("final").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para mi niño hermoso</title>
+  <style>
+    body {
+      background: linear-gradient(#ffd6e8, #fff);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 { color: #d63384; }
+    p { font-size: 18px; }
+    img {
+      width: 90%;
+      max-width: 300px;
+      border-radius: 20px;
+      margin: 10px 0;
+    }
+    .corazon {
+      font-size: 30px;
+      animation: latido 1s infinite;
+    }
+    @keyframes latido {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<h1>💖 Mi niño hermoso 💖</h1>
+
+<p>
+Desde el <strong>16 de junio de 2025</strong> mi corazón decidió quedarse contigo.<br>
+Eres romántico, tierno, coqueto y sentimental… y mío 💕
+</p>
+
+<div class="corazon">❤️</div>
+
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+<img src="foto5.jpg">
+  
+<p>Esta canción siempre me recuerda a ti 🎶</p>
+
+<iframe width="300" height="170"
+src="https://youtu.be/MldGX_mbS-o?si=gkjxOlhlGQDDSlKQ "
+allow="autoplay; encrypted-media"
+allowfullscreen>
+</iframe>
+
+<p>Te amo más de lo que estas palabras pueden decir.</p>
+
+</body>
+</html>
